@@ -21,3 +21,4 @@ EF Core 1.0 è concesso in licenza sotto licenza Apache v2, ed è interamente op
 Anche se EF Core 1.0 condivide alcune somiglianze concettuali con le versioni precedenti di Entity Framework, si tratta di un codice base completamente nuovo progettato per essere più efficiente, potente, flessibile e estensibile, funzionerà su Windows, Linux e OSX e supporterà una nuova gamma di databases relazionali e NOSQL.
 
 Lista delle [differenze](https://docs.microsoft.com/it-it/ef/efcore-and-ef6/features) tra EF6 e EF7.
+Lista delle modifiche nelle varie [versioni](https://msdn.microsoft.com/en-us/library/jj574253)
