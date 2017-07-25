@@ -1,4 +1,5 @@
 # Object-relational mapping (ORM)
+da [WikiPedia](https://it.wikipedia.org/wiki/Object-relational_mapping)
 
 In informatica l'Object-Relational Mapping (ORM) è una tecnica di programmazione che favorisce l'integrazione di sistemi software aderenti al paradigma della programmazione orientata agli oggetti con sistemi RDBMS.
 
@@ -26,4 +27,5 @@ I prodotti per l'ORM attualmente più diffusi offrono spesso nativamente funzion
 
 L'uso di un ORM favorisce il raggiungimento di più alti standard qualitativi software, migliorando in particolare le caratteristiche di correttezza, manutenibilità, evolvibilità e portabilità.
 
-Fonte: [WikiPedia](https://it.wikipedia.org/wiki/Object-relational_mapping)
+Ecco una [lista](https://en.wikipedia.org/wiki/List_of_object-relational_mapping_software) degli ORM conosciuti suddivisi per linguaggi.
+
