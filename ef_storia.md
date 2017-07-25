@@ -19,3 +19,9 @@ La versione 7 (EF7) è attualmente in fase di sviluppo come parte degli sforzi d
 EF7 è stato rinominato in Entity Framework Core 1 (EF Core 1.0). EF Core 1.0 è stato rilasciato a fianco di ASP.NET Core 1.0 il 27 giugno 2016. 
 EF Core 1.0 è concesso in licenza sotto licenza Apache v2, ed è interamente open-source su [GitHub](https://github.com/aspnet/EntityFramework). 
 Anche se EF Core 1.0 condivide alcune somiglianze concettuali con le versioni precedenti di Entity Framework, si tratta di un codice base completamente nuovo progettato per essere più efficiente, potente, flessibile e estensibile, funzionerà su Windows, Linux e OSX e supporterà una nuova gamma di databases relazionali e NOSQL.
+
+Lista delle [differenze](https://docs.microsoft.com/it-it/ef/efcore-and-ef6/features) tra EF6 e EF7.
+
+## Nuget
+Pacchetti [nuget](https://www.nuget.org/packages/EntityFramework/) dell'EF.
+Pacchetti [nuget](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore) dell'EF Core.
