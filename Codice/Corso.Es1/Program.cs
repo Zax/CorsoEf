@@ -12,6 +12,7 @@ namespace Corso.Es1
 		{
 			var db = new FatturazioneContext();
 			Console.WriteLine(db.Clienti.Count());
+			var cliente = db.Clienti.FirstOrDefault();
 		}
 	}
 }
