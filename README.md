@@ -2,7 +2,7 @@
 
 ## Introduzione
 * [Cosè un ORM?](orm.md)
-* [Un pò di storia](ef_storia.md)
+* [Un po' di storia](ef_storia.md)
 * [Dove si scarica](ef_download.md)
 
 ## Installazione
