@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Corso.Es1
+namespace Fatturazione
 {
 	[Table("Fatture")]
 	public class Fattura

@@ -1,4 +1,6 @@
-namespace Corso.Es1.Migrations
+using Fatturazione;
+
+namespace Fatturazione.Migrations
 {
 	using System.Data.Entity.Migrations;
 
@@ -7,7 +9,7 @@ namespace Corso.Es1.Migrations
 		public Configuration()
 		{
 			AutomaticMigrationsEnabled = false;
-			ContextKey = "Corso.Es1.FatturazioneContext";
+			ContextKey = "Fatturazione.FatturazioneContext";
 		}
 
 		protected override void Seed(FatturazioneContext context)

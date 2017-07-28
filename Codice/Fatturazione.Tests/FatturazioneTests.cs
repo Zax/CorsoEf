@@ -6,10 +6,10 @@ using System.Data.Entity.Infrastructure;
 using System.Linq;
 using NUnit.Framework;
 
-namespace Corso.Es1.Tests
+namespace Fatturazione.Tests
 {
 	[TestFixture]
-	public class FatturazioneContextTests
+	public class FatturazioneTests
 	{
 		/// <summary>
 		/// Metodo eseguito prima di tutti i test, prepara il database
@@ -75,6 +75,18 @@ namespace Corso.Es1.Tests
 				db.SaveChanges();
 				Assert.That(cliente.Id, Is.GreaterThan(0));
 				Assert.That(fattura.ClienteId, Is.EqualTo(cliente.Id));
+			}
+		}
+
+		[Test]
+		public void VerificoCheCreandoDueClientiEUnaFatturaSenzaCollegarliRestituisceUnaEccezione()
+		{
+			using (var db = new FatturazioneContext())
+			{
+				db.Clienti.Add(new Cliente { Nome = "Cliente1" });
+				db.Clienti.Add(new Cliente { Nome = "Cliente2" });
+				db.Fatture.Add(new Fattura());
+				Assert.Throws<DbUpdateException>(() => db.SaveChanges());
 			}
 		}
 
@@ -289,9 +301,6 @@ namespace Corso.Es1.Tests
 				db.SaveChanges();
 			}
 		}
-
-
-
 
 	}
 }

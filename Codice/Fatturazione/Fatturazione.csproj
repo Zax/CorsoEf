@@ -7,8 +7,8 @@
     <ProjectGuid>{40885913-A7C2-4C97-B7FE-FB9F07F40421}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Corso.Es1</RootNamespace>
-    <AssemblyName>Corso.Es1</AssemblyName>
+    <RootNamespace>Fatturazione</RootNamespace>
+    <AssemblyName>Fatturazione</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

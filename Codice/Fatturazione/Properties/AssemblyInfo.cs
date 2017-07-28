@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Corso.Es1.Tests")]
+[assembly: AssemblyTitle("Fatturazione")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Corso.Es1.Tests")]
+[assembly: AssemblyProduct("Fatturazione")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("0209df13-caea-4e7e-a9a4-3a9648b18028")]
+[assembly: Guid("40885913-a7c2-4c97-b7fe-fb9f07f40421")]
 
 // Version information for an assembly consists of the following four values:
 //

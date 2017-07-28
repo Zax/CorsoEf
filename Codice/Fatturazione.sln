@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Corso.Es1", "Corso.Es1\Corso.Es1.csproj", "{40885913-A7C2-4C97-B7FE-FB9F07F40421}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fatturazione", "Fatturazione\Fatturazione.csproj", "{40885913-A7C2-4C97-B7FE-FB9F07F40421}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Corso.Es1.Tests", "Corso.Es1.Tests\Corso.Es1.Tests.csproj", "{0209DF13-CAEA-4E7E-A9A4-3A9648B18028}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fatturazione.Tests", "Fatturazione.Tests\Fatturazione.Tests.csproj", "{0209DF13-CAEA-4E7E-A9A4-3A9648B18028}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,4 +1,4 @@
-namespace Corso.Es1.Migrations
+namespace Fatturazione.Migrations
 {
     using System;
     using System.Data.Entity.Migrations;

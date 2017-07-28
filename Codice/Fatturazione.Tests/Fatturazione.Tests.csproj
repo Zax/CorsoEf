@@ -7,8 +7,8 @@
     <ProjectGuid>{0209DF13-CAEA-4E7E-A9A4-3A9648B18028}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Corso.Es1.Tests</RootNamespace>
-    <AssemblyName>Corso.Es1.Tests</AssemblyName>
+    <RootNamespace>Fatturazione.Tests</RootNamespace>
+    <AssemblyName>Fatturazione.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -53,13 +53,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FatturazioneContextTests.cs" />
+    <Compile Include="FatturazioneTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Corso.Es1\Corso.Es1.csproj">
+    <ProjectReference Include="..\Fatturazione\Fatturazione.csproj">
       <Project>{40885913-a7c2-4c97-b7fe-fb9f07f40421}</Project>
-      <Name>Corso.Es1</Name>
+      <Name>Fatturazione</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

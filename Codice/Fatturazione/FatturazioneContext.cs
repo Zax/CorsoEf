@@ -1,12 +1,13 @@
 ﻿using System.Data.Entity;
 
-namespace Corso.Es1
+namespace Fatturazione
 {
 	public class FatturazioneContext : DbContext
 	{
 		public FatturazioneContext() : this("FatturazioneDb") { }
 		public FatturazioneContext(string nomeConnectionString) : base(nomeConnectionString) // specifico il nome della connessione da usare
 		{
+			// Strategie diversi di inizializzazione del context
 			//Database.SetInitializer<FatturazioneContext>(new NullDatabaseInitializer<FatturazioneContext>());
 			//Database.SetInitializer<FatturazioneContext>(new MigrateDatabaseToLatestVersion<FatturazioneContext,Migrations.Configuration>());
 		}
