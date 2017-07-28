@@ -2,9 +2,6 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Corso.Es1
 {
@@ -29,6 +26,11 @@ namespace Corso.Es1
 
 		[MaxLength(2000)]
 		public string Citta { get; set; }
+
+		public virtual List<Fattura> Fatture { get; set; }
+
+		[Timestamp]
+		public byte[] Versione { get; set; }
 
 	}
 }

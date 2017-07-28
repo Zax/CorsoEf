@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Corso.Es1
 {
@@ -10,9 +7,11 @@ namespace Corso.Es1
 	{
 		static void Main(string[] args)
 		{
-			var db = new FatturazioneContext();
-			Console.WriteLine(db.Clienti.Count());
-			var cliente = db.Clienti.FirstOrDefault();
+			using (var db = new FatturazioneContext())
+			{
+				Console.WriteLine($"Clienti: {db.Clienti.Count()}");
+				Console.WriteLine($"Fatture: {db.Fatture.Count()}");
+			}
 		}
 	}
 }

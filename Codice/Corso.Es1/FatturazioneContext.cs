@@ -1,21 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data;
-using System.Data.Entity;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Data.Entity;
 
 namespace Corso.Es1
 {
 	public class FatturazioneContext : DbContext
 	{
-		public FatturazioneContext() : base("TestDb")
+		public FatturazioneContext() : this("FatturazioneDb") { }
+		public FatturazioneContext(string nomeConnectionString) : base(nomeConnectionString) // specifico il nome della connessione da usare
 		{
 			//Database.SetInitializer<FatturazioneContext>(new NullDatabaseInitializer<FatturazioneContext>());
-			Database.SetInitializer<FatturazioneContext>(new MigrateDatabaseToLatestVersion<FatturazioneContext,Migrations.Configuration>());
+			//Database.SetInitializer<FatturazioneContext>(new MigrateDatabaseToLatestVersion<FatturazioneContext,Migrations.Configuration>());
 		}
 
-		public DbSet<Cliente> Clienti { get; set; }
+		public IDbSet<Cliente> Clienti { get; set; }
+
+		public IDbSet<Fattura> Fatture { get; set; }
+
 	}
 }
